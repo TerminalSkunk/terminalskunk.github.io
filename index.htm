@@ -1,148 +1,225 @@
-<!---
-	Current Version is 0.0.4
+<!DOCTYPE HTML>
+<!--
+    This website was made by Me (TerminalSkunk) and was created using HTML / CSS and JS, It is built using a variated 
+    version of bootstrap.
 
-	Version is determined through the following values 
-	
-	First number is Monthly build
-	Second number is Weekly build
-	Third number is daily/nightly build
-
-	
-    This website was coded from the ground up by BagmanHD(Aidan) using the bootsrap framework and edits made by the     respective authors, Without them i wouldn't have been able to make this pile of garbage :) enjoy it people
---->
-<!doctype html>
+    Please dont rip off my code, I don't mind sharing it with everybody but please be nice :) 
+-->
 <html>
     <head>
-        <title>Terminal Skunk Studios</title>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link href = "css/bootstrap.min.css" rel="stylesheet">
-        <link href = "css/style.css" rel="stylesheet">
+        <title>Terminal Skunk</title>
+        <meta http-equiv="content-type" content="text/html"; charset="utf-8" />
+        <meta name="description" content="This is just my private paradise of stuff, It's located on my github" />
+        <meta name="Keywords" content="Terminal, Skunk, TTG, Games, Stuff" />
+        
+        <!-- StyleSheet Loading Events -->
+        <link rel="stylesheet" href="css/skel-noscript.css" />
+        <link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+        
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
     </head>
     <body>
-        <div class="navbar navbar-inverse navbar-static-top">
-            <div class="container">
-                <div class="navbar-brand">Terminal Skunk Studios</div>
-                    <button class="navbar-toggle" data-toggle="collapse" data-target =".navHeaderCollapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                </button>
-                    <div class="collapse navbar-collapse navHeaderCollapse">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li class = "dropdown">
-                                <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media
-                                    <b class = "caret"></b></a>
-                                    <ul class = "dropdown-menu">
-                                        <li><a href = "https://twitter.com/TerminalSkunk">Twitter</a></li><
-                                        <li><a href = "https://www.facebook.com/terminalskunk">Facebook</a></li>
-                                    </ul>                 
-                            </li>
-                            <li><a href="#about" data-toggle="modal">About</a></li>
-                            <li><a href="#contact" data-toggle="modal">Contact</a></li>
-                        </ul>
+        <!-- Header -->
+        <div id="header-wrapper">
+            <header id="header" class="container">
+                <div class="row">
+                    <div class="12u">
+                        <h1><a href="#" id="logo">Terminal Skunk</a></h1>
+                        <!-- Nav -->
+                        <nav id="nav">
+                            <a href="index.htm">Home</a>
+                            <a href="blog.htm">Blog</a>
+                        </nav>
                     </div>
-            </div>
-        </div>
-        <!--Alert-->
-        <div class="container">
-            <div class="alert alert-info alert-dismissable">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <center>We support <b>#ResetTheNet</b></center>
-                <center><b>#ResetTheNet</b> was an event run by the <a href="http://www.fightforthefuture.org/">"Fight for the Future"</a> group who organised the anti-SOPA intiative back in 2012. On June 5th 2014 a whole host of websites proudly displayed the banners in order to raise awarness about the NSA snooping that has been going on, even Edward Snowden sent us a special message!.</center>
-            </div>
-        </div>
-        <!--Full width image-->
-        <div class="widewrapper">
-            <img src="img/img1.jpg" alt="image 1">
-        </div>
-        </br>
-        <!--Columns of stuff-->
-        <div class="container"><!--Container-->
-            <div class="row"><!--Row 1-->
-                <div class="col-md-3" float="left"><!--Float dis shit-->
-                    <div class="panel panel-primary"><!--Makes teh blue bit-->
-                        <div class="panel-heading" text-align="center"><!--text in blue bit-->
-                            <h3 class="panel-title"><center>Projects</center></h3><!--More text in blue bit-->
-                        </div><!--end of blue bit-->
-                        <div class="panel-body"><!--Text under bluebit-->
-                            Why don't you come and take a look at some of the projects me and my friends have been getting up to, We have plenty of things to show you all you need to do is click the button and it will magically take you somwhere...
-                            </br><!--LINE BREAK!-->
-                            </br><!--LINE BREAK!-->
-                            <center><a href="projects.htm"><button type="button" class="btn btn-primary btn-xs">Read More!</button></center></a><!--Makes a clicky button that goes nowhere yet!-->
-                        </div><!--Ends teh box-->
-                    </div><!--Ends teh circle-->
-                </div><!--Keeps shit inline-->
-                <div class="col-md-3" float="left"><!--See first discrption for inlines-->
-                    <div class="panel panel-primary"><!--See first discrption for inlines-->
-                        <div class="panel-heading" text-align="center"><!--See first discrption for inlines-->
-                            <h3 class="panel-title"><center>Blog</center></h3><!--See first discrption for inlines-->
-                        </div><!--See first discrption for inlines-->
-                        <div class="panel-body">So this is my blog, It's nothing special i just write about my gaming adventures and stuff i do in my spare time, It's probably got a bunch of my development stuff inside it aswell so its going to be boring.
-                            </br><!--See first discrption for inlines-->
-                            </br><!--See first discrption for inlines-->
-                        <a href="/blog/"><center><button type="button" class="btn btn-primary btn-xs">Read More!</button></center></a><!--See first discrption for inlines-->
-                        </div><!--See first discrption for inlines-->
-                    </div><!--See first discrption for inlines-->
-                </div><!--See first discrption for inlines-->
-                <div class="col-md-6" float="left"><!--See first discrption for inlines-->
-                    <a class="twitter-timeline" href="https://twitter.com/TerminalSkunk" data-widget-id="476456116058988544" height="270px">Tweets by @TerminalSkunk</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </header>
+            <div id="banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="6u">
+                            <!-- My Description -->
+                            <p>I'm not important and neither is this website</p>
+                            <a href="http://google.com" class="button-big">Help me escape!</a>
+                            <hr>
+                            <p class="smalltext">Click the button above to run away</p>
+                        </div>
+                        <div class="6u">
+                            <a href="#" class="bordered-feature-image"><img src="images/banner.jpg" alt="" /></a>
+                        </div>
+                    </div>
                 </div>
-            </div><!--See first discrption for inlines-->
-        </div><!--See first discrption for inlines-->
+            </div>
+        </div>
+    </div>
+        <!-- Featured Stuff -->
+        <div id="features-wrapper">
+            <div id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="3u">
+                            <!-- Feature #1 -->
+                            <section>
+                                <a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+                                <h2>A Friends website!</h2>
+                                <p>This is my <strong>friends</strong> website, why don't you check that out when                                        your done here.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="3u">
+                            <!-- Feature #2 -->
+                            <section>
+                                <a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+                                <h2>Somthing Else!</h2>
+                                <p>This is my <strong>friends</strong> website, why don't you check that out when                                        your done here.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="3u">
+                            <!-- Feature #3 -->
+                            <section>
+                                <a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+                                <h2>Another Thing!</h2>
+                                <p>This is my <strong>friends</strong> website, why don't you check that out when                                        your done here.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="3u">
+                            <!-- Feature #4 -->
+                            <section>
+                                <a href="#" class="bordered-feature-image"><img src="images/pic01.jpg" alt="" /></a>
+                                <h2>A Forum!</h2>
+                                <p>This is my <strong>friends</strong> website, why don't you check that out when                                        your done here.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Content Area -->
+        <div id="content-wrapper">
+            <div id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="4u">
+                            <!--Box 1-->
+                            <section>
+                                <header>
+                                    <h2>Who am I?</h2>
+                                    <h3>TerminalSkunk who are you?</h3>
+                                </header>
+                                    <a href="#" class="feature-image"><img src="images/pic05.jpg" alt="" /></a>
+                                        <p>
+								            Before you ask <strong>yes </strong>I do happen to be a fairly large                                                 gamer. 
+                                            But that doesn't stop me from doing the things I have to do like                                                     my job. I like gaming but i also love web and graphics design.
+								        </p>
+                            </section>
+                        </div>
+                        <div class="4u">
+				            <!-- Box #2 -->
+				            <section>
+								<header>
+								    <h2>What I Do</h2>
+								    <h3>In your spare time?</h3>
+								</header>
+								<ul class="check-list">
+								    <li>Game .... alot</li>
+								    <li>Web Design</li>
+								    <li>Graphics Design</li>
+								    <li>Forum surfing</li>
+								    <li>More games</li>
+								</ul>
+				             </section>
+				        </div>
+                        <div class="4u">
+                            <section>
+                                <header>
+                                    <h2>Twitter Feed</h2>
+                                    <h3>Keep up with my twitter</h3>
+                                    </br>
+                                </header>
+                                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/TerminalSkunk"                                    data-widget-id="476456116058988544">Tweets by @TerminalSkunk</a>
+                                <script>
+                                    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)                                                               [0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)) {js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}                                       (document,"script","twitter-wjs");</script>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+			<div id="footer-wrapper">
+				<footer id="footer" class="container">
+					<div class="row">
+						<div class="8u">
+						
+							<!-- Links -->
+								<section>
+									<h2>Special Mentions</h2>
+									<div>
+										<div class="row">
+											<div class="3u">
+												<ul class="link-list last-child">
+													<li><a href="#">This is a special Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+												</ul>
+											</div>
+											<div class="3u">
+												<ul class="link-list last-child">
+													<li><a href="#">This is a special Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+												</ul>
+											</div>
+											<div class="3u">
+												<ul class="link-list last-child">
+													<li><a href="#">This is a Special Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+												</ul>
+											</div>
+											<div class="3u">
+												<ul class="link-list last-child">
+													<li><a href="#">This is another Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+                                                    <li><a href="#">This is another Link</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</section>
 
-    <!--Footer-->
-    </br><!--ANOTHER LINE BREAK!-->
-        <div id="footer footer-default">
-            <div class="container footer-container">
-                <p class="navbar-text">&copy; Terminal Skunk Studios 2014 | Website Created by Bagman</p>
-            </div>
-        </div>
-    <!--Contact Modal-->
-    <div class="modal fade" id="contact" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <center><h4>Contact Terminal Skunk Studios</h4></center>
-                </div>
-                <div class="modal-body">
-                    <P>So you want to get in touch with us huh? Well lucky for you there are a few ways you can contact us, Fortunatly for you they happen to be very easy channels of communication to use.</P>
-                    </br>
-                    <p>For your convinence we have listed them below and if it makes it easier to read we even formatted them correctly.</p>
-                    </br>
-                    <p>
-                        <ul>
-                            <li><b>Email</b>: terminalskunk@gmail.com</li>
-                        </ul>
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-default" data-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!---About Modal--->
-    <div class="modal fade" id="about" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <center><h4>About this webpage</h4></center>
-                </div>
-                <div class="modal-body">
-                    <p>
-                        This is the official website of Terminal Skunk Studios, It started out as a simple part time project on my (bagman's) local machine and it slowly progressed, I kept it secret from the others untill i had managed to register a domain name and got us some hosting sorted after that it kinda snowballed.
-                    </p>
-                 </div>
-                <div class="modal-footer">
-                    <a class="btn btn-default" data-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-    </body>    
+						</div>
+						<div class="4u">
+							
+							<!-- Blurb -->
+								<section>
+									<h2>Social Media</h2>
+                                        <div class="row">
+								            <div class="3u">
+											 <ul class="link-list last-child">
+											     <li><a href="http://facebook.com/TerminalSkunkStudios">Facebook</a>                                                  </li>
+                                                 <li><a href="http://twitter.com/TerminalSkunk">Twitter</a></li>
+                                                 <li><a href="https://plus.google.com/u/1/106883659660797638292/posts">Google+</a></li>
+								            </ul>
+								        </div>
+								</section>
+						
+						</div>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Copyright -->
+			<div id="copyright">
+				&copy; TerminalSkunk All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a>
+			</div>
+        <!-- Script Loading Events -->
+        <script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+    </body>
 </html>
-</doctype>
